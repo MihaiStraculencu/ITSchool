@@ -1,7 +1,0 @@
-package ocp;
-
-class RegularCustomerDiscount implements DiscountStrategy {
-    public double calculateDiscount(double price) {
-        return price * 0.05;
-    }
-}
